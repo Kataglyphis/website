@@ -2,6 +2,24 @@
   float: left;
   width: 33.33%;
 }
+/* two unequal columns floating next to each other */
+.leftcolumn {
+  float:left;
+  width:75%;
+}
+
+.rightcolumn {
+  float:left;
+  width:25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* card effect for articles*/
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
 /* clear floats after columns */
 .row:after {
   content:"";
@@ -9,8 +27,16 @@
   clear: both;
 }
 
-@media screen and (max-width: 600px) {
-  .column {
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float:none;
     width: 100%;
   }
 }
@@ -18,7 +44,7 @@
 .header {
   background-color: #F1F1F1;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
 }
 
 /* the navbar container */
