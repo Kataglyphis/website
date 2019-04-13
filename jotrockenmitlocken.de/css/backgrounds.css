@@ -1,0 +1,15 @@
+.footer {
+  background-image: url("pictures/ornament_transparent.JPG");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: 100% 100%
+  }
+
+.header {
+  background-image: url("pictures/triumpfbogen.JPG");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: auto;
+}
