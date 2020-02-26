@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>
+    Thoughts become things
+  </title>
+
+    <script src="../../jquery-3.4.1.min.js"></script> 
+    <script> 
+    $(function(){
+    $("#includedEnd").load("../../ende.html"); 
+    });
+    </script>
+
+    <script src="../../jquery-3.4.1.min.js"></script> 
+    <script> 
+    $(function(){
+    $("#includedCdn").load("../../cdn.html"); 
+    });
+    </script>
+
+    <!--nach Zustimmung des Benutzers, werden css und js von leaflet geladen-->
+    <link rel="stylesheet" href="../../leaflet/leaflet.css">
+    <script src="../../leaflet/leaflet.js"></script>
+
+    <div id="includedCdn"></div>
+
+    <link rel="stylesheet"
+            href="../../css/como.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">JotrockenMitLocken</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <div class="container">
+              <img src="../../pictures/house.svg" width="32" height="32" alt="mein Icon"
+                        text="Home" title="home" class="rounded-circle">
+            <a class="nav-link" href="../../index.html">Home</a>
+          </div>
+          </li>
+          <li class="nav-item">
+            <div class="container">
+              <img src="../../pictures/book.svg" width="32" height="32" alt="mein Icon"
+                      text="Home" title="home" class="rounded-circle">
+            <a class="nav-link" href="../../blog/start.html">Blog</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <div class="container">
+              <img src="../../pictures/camera.svg" width="32" height="32" alt="mein Icon"
+                      text="Home" title="home" class="rounded-circle">
+            <a class="nav-link" href="../../album/album.html">Album</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="container">
+              <img src="../../pictures/info.svg" width="32" height="32" alt="mein Icon"
+                      text="Home" title="home" class="rounded-circle">
+            <a class="nav-link" href="../../Me/me.html">Über mich</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="container">
+              <img src="../../pictures/tools.svg" width="32" height="32" alt="mein Icon"
+                      text="Home" title="home" class="rounded-circle">
+            <a class="nav-link" href="../../Projekte/Projekte.html">Projekte</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Wasse Sie begehren?</button>
+        </form>
+      </div>
+    </nav>
+  
+  </header>
+
+  <div class="container">
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery">
+                <a target="_blank" href="pictures/Akropolis.JPG">
+                <img src="pictures/Akropolis.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+                </a>
+                <div class="desc">Greece</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery">
+                <a target="_blank" href="pictures/Akropolis10.JPG">
+                <img src="pictures/Akropolis10.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Greece</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery">
+                <a target="_blank" href="pictures/Akropolis11.JPG">
+                <img src="pictures/Akropolis11.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Greece</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/Akropolis2.JPG">
+                <img src="pictures/Akropolis2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Greece</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/Akropolis3.JPG">
+                <img src="pictures/Akropolis3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Greece</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/Akropolis4.JPG">
+                <img src="pictures/Akropolis4.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Greece</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <div class="row mb-3">
+      <div class="col-lg-4">
+        <div class="gallery">
+              <a target="_blank" href="pictures/Akropolis5.JPG">
+                <img src="pictures/Akropolis5.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+              </a>
+              <div class="desc">Greece</div>
+          </div>
+        </div>
+      
+        <div class="col-lg-4">
+          <div class="gallery">
+            <a target="_blank" href="pictures/Akropolis6.JPG">
+              <img src="pictures/Akropolis6.JPG" alt="Como" width="100%" height="100%" class="zoom">
+            </a>
+              <div class="desc">Greece</div>
+            </div>
+      </div>
+      
+      <div class="col-lg-4">
+          <div class="gallery">
+            <a target="_blank" href="pictures/Akropolis7.JPG">
+              <img src="pictures/Akropolis7.JPG" alt="Como" width="100%" height="100%" class="zoom">
+            </a>
+              <div class="desc">Greece</div>
+            </div>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+    <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Akropolis8.JPG">
+            <img src="pictures/Akropolis8.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+            </a>
+            <div class="desc">Greece</div>
+        </div>
+    </div>
+    
+    <div class="col-lg-4">
+        <div class="gallery">
+          <a target="_blank" href="pictures/Akropolis9.JPG">
+            <img src="pictures/Akropolis9.JPG" alt="Como" width="100%" height="100%" class="zoom">
+            </a>
+            <div class="desc">Greece</div>
+          </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="gallery">
+            <a target="_blank" href="pictures/Kamiros.JPG">
+              <img src="pictures/Kamiros.JPG" alt="Como" width="100%" height="100%" class="zoom">
+            </a>
+            <div class="desc">Greece</div>
+          </div>
+    </div>
+  </div>
+  
+<div class="row mb-3">
+  <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Kamiros2.JPG">
+          <img src="pictures/Kamiros2.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+          </a>
+          <div class="desc">Greece</div>
+      </div>
+    </div>
+    
+  <div class="col-lg-4">
+    <div class="gallery">
+      <a target="_blank" href="pictures/Kamiros3.JPG">
+          <img src="pictures/Kamiros3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+        </a>
+        <div class="desc">Greece</div>
+      </div>
+    </div>
+  
+    <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Kamiros4.JPG">
+          <img src="pictures/Kamiros4.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+      </div>
+    </div>
+  </div>
+  
+<div class="row mb-3">
+  <div class="col-lg-4">
+    <div class="gallery">
+          <a target="_blank" href="pictures/Kamiros5.JPG">
+            <img src="pictures/Kamiros5.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+          </a>
+          <div class="desc">Greece</div>
+      </div>
+    </div>
+  
+    <div class="col-lg-4">
+      <div class="gallery">
+          <a target="_blank" href="pictures/Kamiros6.JPG">
+            <img src="pictures/Kamiros6.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+      </div>
+    </div>
+  
+    <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Kamiros7.JPG">
+          <img src="pictures/Kamiros7.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+      </div>
+    </div>
+</div>
+
+<div class="row mb-3">
+  <div class="col-lg-4">
+    <div class="gallery">
+      <a target="_blank" href="pictures/Kamiros8.JPG">
+        <img src="pictures/Kamiros8.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+          </a>
+          <div class="desc">Greece</div>
+        </div>
+  </div>
+  
+  <div class="col-lg-4">
+    <div class="gallery">
+          <a target="_blank" href="pictures/Kamiros9.JPG">
+            <img src="pictures/Kamiros9.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Koloss.JPG">
+          <img src="pictures/Koloss.JPG" alt="Como" width="100%" height="100%" class="zoom">
+        </a>
+          <div class="desc">Greece</div>
+        </div>
+  </div>
+</div>
+
+<div class="row mb-3">
+  <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Kreuzritterburg.JPG">
+          <img src="pictures/Kreuzritterburg.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+        </a>
+          <div class="desc">Greece</div>
+        </div>
+  </div>
+  
+  <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Lindos.JPG">
+          <img src="pictures/Lindos.JPG" alt="Como" width="100%" height="100%" class="zoom">
+        </a>
+          <div class="desc">Greece</div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Mosaik.JPG">
+          <img src="pictures/Mosaik.JPG" alt="Como" width="100%" height="100%" class="zoom">
+        </a>
+        <div class="desc">Greece</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-3">
+    <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Phytagoras.JPG">
+          <img src="pictures/Phytagoras.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+        </a>
+        <div class="desc">Greece</div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Rhodos1.JPG">
+          <img src="pictures/Rhodos1.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+        </div>
+  </div>
+  
+  <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Rhodos2.JPG">
+          <img src="pictures/Rhodos2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+        </a>
+        <div class="desc">Greece</div>
+      </div>
+    </div>
+  </div>
+  
+<div class="row mb-3">
+  <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Rhodos3.JPG">
+          <img src="pictures/Rhodos3.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+          </a>
+          <div class="desc">Greece</div>
+        </div>
+  </div>
+  
+  <div class="col-lg-4">
+    <div class="gallery">
+          <a target="_blank" href="pictures/Rhodos4.JPG">
+            <img src="pictures/Rhodos4.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4">
+        <div class="gallery">
+          <a target="_blank" href="pictures/Rhodos5.JPG">
+            <img src="pictures/Rhodos5.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+        </div>
+      </div>
+</div>
+
+<div class="row mb-3">
+  <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Rhodos6.JPG">
+          <img src="pictures/Rhodos6.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+          </a>
+          <div class="desc">Greece</div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Sonnenuntergang.JPG">
+          <img src="pictures/Sonnenuntergang.JPG" alt="Como" width="100%" height="100%" class="zoom">
+        </a>
+        <div class="desc">Greece</div>
+      </div>
+    </div>
+    
+  <div class="col-lg-4">
+    <div class="gallery">
+          <a target="_blank" href="pictures/Symi.JPG">
+            <img src="pictures/Symi.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row mb-3">
+    <div class="col-lg-4">
+      <div class="gallery">
+        <a target="_blank" href="pictures/Symi2.JPG">
+          <img src="pictures/Symi2.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+        </a>
+          <div class="desc">Greece</div>
+        </div>
+      </div>
+      
+  <div class="col-lg-4">
+    <div class="gallery">
+          <a target="_blank" href="pictures/Symi3.JPG">
+            <img src="pictures/Symi3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+          </a>
+          <div class="desc">Greece</div>
+        </div>
+      </div>
+  
+      <div class="col-lg-4">
+        <div class="gallery">
+          <a target="_blank" href="pictures/Symi4.JPG">
+          <img src="pictures/Symi4.JPG" alt="Como" width="100%" height="100%" class="zoom">
+        </a>
+          <div class="desc">Greece</div>
+        </div>
+      </div>
+    </div>
+      <div class="row mb">
+        <div class="col-lg">
+            <img src="../../pictures/map.svg" width="20%" height="20%" class="center" background="#A9A9A9" color="#A9A9A9" text="infos" title="me_info">
+            <div id="mapid"></div>
+            <img src="../../pictures/geo.svg" alt="Geopositioning" id="Geopositioning" width="20%" height="20%" class="center" background="#A9A9A9" color="#A9A9A9" text="infos" title="Bestimme deine Position :)">
+            <!--<button id="Standordbestimmung">Bestimme deine Position! :)</button>
+            <img src="../../pictures/geo.svg" width="20%" height="20%" class="center" background="#A9A9A9" color="#A9A9A9" text="infos" title="me_info">-->
+        </div>
+      </div>
+
+
+  </div>
+<script src="./geolocation.js"></script>
+<div id="includedEnd"></div>
+</body>
+</html>

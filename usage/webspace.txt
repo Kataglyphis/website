@@ -1,5 +1,0 @@
-belegter Speicherplatz:
-htdocs	: 61104
-mysql	: 240
-	d02e1814  -> 240
-chroot	: 0

@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>
+    Thoughts become things
+  </title>
+
+    <script src="../../jquery-3.4.1.min.js"></script> 
+    <script> 
+    $(function(){
+    $("#includedEnd").load("../../ende.html"); 
+    });
+    </script>
+
+    <script src="../../jquery-3.4.1.min.js"></script> 
+    <script> 
+    $(function(){
+    $("#includedCdn").load("../../cdn.html"); 
+    });
+    </script>
+
+    <!--nach Zustimmung des Benutzers, werden css und js von leaflet geladen-->
+    <link rel="stylesheet" href="../../leaflet/leaflet.css">
+    <script src="../../leaflet/leaflet.js"></script>
+
+    <div id="includedCdn"></div>
+
+    <link rel="stylesheet"
+            href="../../css/como.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand" href="#">JotrockenMitLocken</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <div class="container">
+                  <img src="../../pictures/house.svg" width="32" height="32" alt="mein Icon"
+                            text="Home" title="home" class="rounded-circle">
+                <a class="nav-link" href="../../index.html">Home</a>
+              </div>
+              </li>
+              <li class="nav-item">
+                <div class="container">
+                  <img src="../../pictures/book.svg" width="32" height="32" alt="mein Icon"
+                          text="Home" title="home" class="rounded-circle">
+                <a class="nav-link" href="../../blog/start.html">Blog</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <div class="container">
+                  <img src="../../pictures/camera.svg" width="32" height="32" alt="mein Icon"
+                          text="Home" title="home" class="rounded-circle">
+                <a class="nav-link" href="../../album/album.html">Album</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="container">
+                  <img src="../../pictures/info.svg" width="32" height="32" alt="mein Icon"
+                          text="Home" title="home" class="rounded-circle">
+                <a class="nav-link" href="../../Me/me.html">Über mich</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="container">
+                  <img src="../../pictures/tools.svg" width="32" height="32" alt="mein Icon"
+                          text="Home" title="home" class="rounded-circle">
+                <a class="nav-link" href="../../Projekte/Projekte.html">Projekte</a>
+                </div>
+              </li>
+            </ul>
+            <form class="form-inline mt-2 mt-md-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Wasse Sie begehren?</button>
+            </form>
+          </div>
+        </nav>
+      
+      </header>
+
+  <div class="container">
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery">
+                <a target="_blank" href="pictures/art1.JPG">
+                <img src="pictures/art1.JPG" alt="Como" width="100%" height="100%" class="zoom" class="rounded">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery">
+                <a target="_blank" href="pictures/art2.JPG">
+                <img src="pictures/art2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery">
+                <a target="_blank" href="pictures/art3.JPG">
+                <img src="pictures/art3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/art4.JPG">
+                <img src="pictures/art4.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/art5.JPG">
+                <img src="pictures/art5.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/flag.JPG">
+                <img src="pictures/flag.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/green_gras.JPG">
+                <img src="pictures/green_gras.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/hotel.JPG">
+                <img src="pictures/hotel.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/market1.JPG">
+                <img src="pictures/market1.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/market2.JPG">
+                <img src="pictures/market2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/market3.JPG">
+                <img src="pictures/market3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/Moschee.JPG">
+                <img src="pictures/Moschee.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/Moschee1.JPG">
+                <img src="pictures/Moschee1.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/Moschee2.JPG">
+                <img src="pictures/Moschee2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/Moschee3.JPG">
+                <img src="pictures/Moschee3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ornament1.JPG">
+                <img src="pictures/ornament1.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ornament2.JPG">
+                <img src="pictures/ornament2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ornament3.JPG">
+                <img src="pictures/ornament3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ornament4.JPG">
+                <img src="pictures/ornament4.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/post.JPG">
+                <img src="pictures/post.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ruins1.JPG">
+                <img src="pictures/ruins1.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ruins2.JPG">
+                <img src="pictures/ruins2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ruins3.JPG">
+                <img src="pictures/ruins3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ruins4.JPG">
+                <img src="pictures/ruins4.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ruins5.JPG">
+                <img src="pictures/ruins5.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/street1.JPG">
+                <img src="pictures/street2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/street_art.JPG">
+                <img src="pictures/street_art.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/town1.JPG">
+                <img src="pictures/town1.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/town2.JPG">
+                <img src="pictures/town2.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/town3.JPG">
+                <img src="pictures/town3.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/town4.JPG">
+                <img src="pictures/town4.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/town5.JPG">
+                <img src="pictures/town5.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/town6.JPG">
+                <img src="pictures/town6.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/town7.JPG">
+                <img src="pictures/town7.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/town_wall.JPG">
+                <img src="pictures/town_wall.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4">
+            <div class="gallery" style="text-align: center;">
+                <a target="_blank" href="pictures/ziegen.JPG">
+                <img src="pictures/ziegen.JPG" alt="Como" width="100%" height="100%" class="zoom">
+                </a>
+                <div class="desc">Marokko</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb">
+      <div class="col-lg">
+          <img src="../../pictures/map.svg" width="20%" height="20%" class="center" background="#A9A9A9" color="#A9A9A9" text="infos" title="me_info">
+          <div id="mapid"></div>
+          <img src="../../pictures/geo.svg" alt="Geopositioning" id="Geopositioning" width="20%" height="20%" class="center" background="#A9A9A9" color="#A9A9A9" text="infos" title="Bestimme deine Position :)">
+      </div>
+    </div>
+    
+  </div>
+  <script src="./geolocation.js"></script>
+  <div id="includedEnd"></div>
+</body>
+</html>
