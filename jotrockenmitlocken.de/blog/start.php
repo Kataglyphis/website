@@ -1,4 +1,5 @@
 <?php
+        session_start();
         date_default_timezone_set('Europe/Copenhagen');
         require_once 'php/connect.php';
         require_once 'php/functions.php';
@@ -25,11 +26,6 @@
     $("#includedCdn").load("../cdn.html"); 
     });
     </script>
-
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
 
     <script src="js/global.js"></script>
     
@@ -232,7 +228,7 @@
     </div><!-- /.row -->
   
   </main><!-- /.container -->
-    <div class="container">
+    <!--<div class="container">
       <div id="app">
         {{ message }}
       </div>
@@ -241,20 +237,20 @@
           dynamically bound title
         </span>
       </div>
-    </div>
+    </div>-->
     <div class="container">
       <?php get_total(); 
-        require_once 'php/check_com.php';
+            require_once 'php/check_com.php';
       ?>
       <form action="" method="post" class="main">
         <label> Brokkoli 4 life </label>
         <textarea class="form-text" name="comment" id="comment"></textarea>
         <br />
-        <input type="submit" class="form-submit" name="new_comment" value="post">
+        <input type="submit" class=".form-submit" name="new_comment" value="post">
       </form>
       <?php get_comments(); ?>
     </div>
+    <div id="includedEnd"></div>
     <script src="comments.js"></script>
-  </body>
-  <div id="includedEnd"></div>
+</body>
 </html>
